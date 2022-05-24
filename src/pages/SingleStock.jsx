@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
-
+  const apiKey = "2b148ce7b9bf7b359aaa8ae43be6b0fa"
 
 const SngleStock = (props) => {
-  const apiKey = "2b148ce7b9bf7b359aaa8ae43be6b0fa"
   const params = useParams()
   const symbol = params.symbol
   const url = `https://financialmodelingprep.com/api/v3/quote/${symbol}?apikey=${apiKey}`
