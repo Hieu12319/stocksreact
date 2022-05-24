@@ -1,6 +1,6 @@
 export default function Home() {
 
     return(
-        <h1>This is the Homepage Page</h1>
+        <h1>This is the Stocks Homepage Page</h1>
     )
 }
